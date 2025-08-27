@@ -4,10 +4,24 @@
 
 * Lineamientos de cátedra
 * Bibliografía
-* TPs
+* Trabajos
+  * Prácticos
+  * Teóricos
 * Unidades
   * Unidad_n
     * Presentaciones
     * Notas de clase
 * Resúmenes
+
+|           Item          | Descripción | Nomenclatura | Ubicación |
+|:-----------------------:|-------------|--------------|-----------|
+| Presentaciones de clase |             |              |           |
+| Bibliografía            |             |              |           |
+| Notas de clase          |             |              |           |
+| Trabajos prácticos      |             |              |           |
+| Resumen parcial         |             |              |           |
+|                         |             |              |           |
+|                         |             |              |           |
+|                         |             |              |           |
+|                         |             |              |           |
   
