@@ -45,9 +45,18 @@
 
 | Sigla | Descripción |
 |:---:|:---:|
+| BiB | Bibliografía |
+| GdM | Guías de ? |
+| LdC | Lineamientos de cátedra |
+| LyK | Lean y Kanban |
+| ISW | Ingeniería y Calidad de Software |
+| IS | Ingeniería de Software |
+| PA | Pensamiento Ágil |
+| SCM | Gestión y configuración de Software |
+| SW | Software |
+| TmP | Template |
+| TS | Testing de Software |
 | TP | Trabajo Práctico |
 | U | Unidad |
-| ISW | Ingeniería y Calidad de Software |
-| SW | Software |
 | [Numero_Unidad] | Numero de la unidad |
 | [Numero_TP] | Numero de Trabajo Practico |
