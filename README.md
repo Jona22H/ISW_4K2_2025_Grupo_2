@@ -2,7 +2,7 @@
 
 ## Integrantes
 
-| Integrantes | Legajo |
+| **Integrantes** | **Legajo** |
 |:-:|:-:| 
 | Aguirre, Agustín | 80132 | 
 | Andrean, Facundo | 86928 | 
