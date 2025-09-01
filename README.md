@@ -20,7 +20,6 @@
 | Guzman, Francisco José | 89910 |
 | Hadjadourian Placereano, Jonatan Estaban | 99507 |
 | Heck, Fausto | 85255 |
-| Soria, Ignacio | 94607 |
 
 ### Estructura:
      .    
@@ -37,10 +36,9 @@
      │   ├── Conceptuales
      │   └── Prácticos
      ├── Unidades
-     │   ├── Unidad_1_Ingeniería_de_Software_en_Contexto
-     │   ├── Unidad_2_Gestión_Lean_Ágil_de_Productos_de_Software
-     │   ├── Unidad_3_Gestión_del_Software_Como_Producto
-     │   └── Unidad_4_Aseguramiento_de_Calidad_de_Proceso_y_de_Producto
+     │   ├── Unidad__<Nro_U>
+     │        ├── Presentaciones
+     │        ├── Apuntes
      ├── Estructura_ReglasNombrado.pdf
      └── README.md
 
@@ -67,38 +65,44 @@ Archivo pdf que contiene la estructura del repositorio, las reglas de nombrado y
 
 
 ## Ítems de Configuración
+## Listado de Ítems de Configuración
 
-|           Item          | Descripción | Nomenclatura | Ubicación |
-|:-----------------------:|-------------|--------------|-----------|
-| Presentaciones de clase |             |              |           |
-| Bibliografía            |             |              |           |
-| Notas de clase          |             |              |           |
-| Trabajos prácticos      |             |              |           |
-| Casos de estudio        |             |              |           |
-|                         |             |              |           |
-|                         |             |              |           |
-|                         |             |              |           |
-|                         |             |              |           |
-  
+| **Nombre**                            | **Regla de Nombrado**                                   | **Ubicación Física**                                                     | **Tipo de ítem** |
+|--------------------------------------|--------------------------------------------------------|-------------------------------------------------------------------------|------------------|
+| Bibliografía / Ingeniería_de_Software | ISW_4K2_2025_Bib_IS_<N_Bib>.pdf                        | ISW_4K2_2025_Grupo_2/Bibliografía/Ingeniería_de_Software                | Cátedra          |
+| Bibliografía / Lean_Kanban           | ISW_4K2_2025_Bib_LyK_<N_Bib>.pdf                       | ISW_4K2_2025_Grupo_2/Bibliografía/Lean_Kanban                           | Cátedra          |
+| Bibliografía / Pensamiento_Ágil      | ISW_4K2_2025_Bib_PA_<N_Bib>.pdf                        | ISW_4K2_2025_Grupo_2/Bibliografía/Pensamiento_Ágil                      | Cátedra          |
+| Bibliografía / SCM                   | ISW_4K2_2025_Bib_SCM_<N_Bib>.pdf                       | ISW_4K2_2025_Grupo_2/Bibliografía/SCM                                   | Cátedra          |
+| Bibliografía / Testing_de_Software   | ISW_4K2_2025_Bib_TS_<N_Bib>.pdf                        | ISW_4K2_2025_Grupo_2/Bibliografía/Testing_de_Software                   | Cátedra          |
+| Guías                                | ISW_4K2_2025_GdM_<N_Guia>.pdf                          | ISW_4K2_2025_Grupo_2/Guías/                                            | Cátedra          |
+| Lineamiento de cátedra               | ISW_4K2_2025_LdC_<N_Lineamiento>.pdf                   | ISW_4K2_2025_Grupo_2/Lineamientos_De_Cátedra/                           | Cátedra          |
+| Templates                            | ISW_4K2_2025_Tmp_<N_Template>.<pdf/xlsx/docx>          | ISW_4K2_2025_Grupo_2/Trabajos/Templates                                | Cátedra          |
+| Trabajos Prácticos                  | ISW_4K2_2025_TP_<Nro_tp>.pdf                           | ISW_4K2_2025_Grupo_2/Trabajos/Prácticos/                                | Práctico         |
+| Trabajos Conceptuales               | ISW_4K2_2025_TC_<Nro_tc>.pdf                           | ISW_4K2_2025_Grupo_2/Trabajos/Conceptuales/                             | Teórico          |
+| Presentaciones                      | ISW_4K2_2025_U<Nro_U>_<N_Pres>.pdf                     | ISW_4K2_2025_Grupo_2/Unidades/Unidad_<Nro_U>/Presentaciones/            | Cátedra          |
+
+
 ## Glosario
 
-| Sigla | Descripción |
-|:---:|:---:|
-| BiB | Bibliografía |
-| GdM | Guías de ? |
-| LdC | Lineamientos de cátedra |
-| LyK | Lean y Kanban |
-| ISW | Ingeniería y Calidad de Software |
-| IS | Ingeniería de Software |
-| PA | Pensamiento Ágil |
-| SCM | Gestión y configuración de Software |
-| SW | Software |
-| TmP | Template |
-| TS | Testing de Software |
-| TP | Trabajo Práctico |
-| U | Unidad |
-| [Numero_Unidad] | Numero de la unidad |
-| [Numero_TP] | Numero de Trabajo Practico |
+| **Sigla**         | **Significado**                            |
+|--------------------|-------------------------------------------|
+| Bib               | Bibliografía                              |
+| ISW               | Ingeniería y calidad de software          |
+| LdC               | Lineamiento de cátedra                    |
+| LyK               | Lean Kanban                               |
+| N_Bib             | Nombre de la bibliografía                 |
+| N_Guia            | Nombre de la guía de la materia           |
+| N_Lineamiento     | Nombre del lineamiento                    |
+| N_Pres            | Nombre de la presentación                 |
+| N_Template        | Nombre de template                        |
+| Nro_tc            | Número de trabajo conceptual              |
+| Nro_tp            | Número de trabajo práctico                |
+| Nro_U             | Número de unidad                          |
+| PA                | Pensamiento ágil                          |
+| TC                | Trabajo conceptual                        |
+| Temp              | Templates                                 |
+| TP                | Trabajo práctico                          |
+| TS                | Testing de software                       |
 
 
 ## Marcado de Línea Base
