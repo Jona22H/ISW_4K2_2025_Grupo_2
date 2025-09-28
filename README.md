@@ -36,10 +36,10 @@
      │   ├── Conceptuales
      │   └── Prácticos
      ├── Unidades
-     │   ├── Unidad_<Nro_U>
+     │   ├── Unidad_<Numero_Unidad>
      │        ├── Presentaciones
      │        ├── Apuntes
-     ├── Estructura_ReglasNombrado.pdf
+     ├── Estructura_RN.pdf
      └── README.md
 
 ### Bibliografía: 
@@ -69,46 +69,46 @@ Archivo pdf que contiene la estructura del repositorio, las reglas de nombrado y
 
 | **Nombre**                            | **Regla de Nombrado**                                  | **Ubicación Física**                                                    | **Tipo de ítem** |
 |---------------------------------------|--------------------------------------------------------|-------------------------------------------------------------------------|------------------|
-| Bibliografía / Ingeniería_de_Software | ISW_4K2_2025_BiB_ISW_<N_Bib>.pdf                       | ISW_4K2_2025_Grupo_2/Bibliografía/Ingeniería_de_Software                | Cátedra          |
-| Bibliografía / Lean_y_Kanban          | ISW_4K2_2025_BiB_LyK_<N_Bib>.pdf                       | ISW_4K2_2025_Grupo_2/Bibliografía/Lean_Kanban                           | Cátedra          |
-| Bibliografía / Pensamiento_Ágil       | ISW_4K2_2025_BiB_PA_<N_Bib>.pdf                        | ISW_4K2_2025_Grupo_2/Bibliografía/Pensamiento_Ágil                      | Cátedra          |
-| Bibliografía / SCM                    | ISW_4K2_2025_BiB_SCM_<N_Bib>.pdf                       | ISW_4K2_2025_Grupo_2/Bibliografía/SCM                                   | Cátedra          |
-| Bibliografía / Testing_de_Software    | ISW_4K2_2025_BiB_TS_<N_Bib>.pdf                        | ISW_4K2_2025_Grupo_2/Bibliografía/Testing_de_Software                   | Cátedra          |
-| Guías                                 | ISW_4K2_2025_GdT_<N_Guia>.pdf                          | ISW_4K2_2025_Grupo_2/Guías/                                             | Cátedra          |
-| Lineamientos de Cátedra               | ISW_4K2_2025_LdC_<N_Lineamiento>.pdf                   | ISW_4K2_2025_Grupo_2/Lineamientos_de_Cátedra/                           | Cátedra          |
-| Templates                             | ISW_4K2_2025_Tmp_<N_Template>.<pdf/xlsx/docx>          | ISW_4K2_2025_Grupo_2/Templates                                          | Cátedra          |
-| Trabajos / Prácticos                  | ISW_4K2_2025_TP_<Nro_tp>.pdf                           | ISW_4K2_2025_Grupo_2/Trabajos/Prácticos/                                | Práctico         |
-| Trabajos / Conceptuales               | ISW_4K2_2025_TC_<Nro_tc>.pdf                           | ISW_4K2_2025_Grupo_2/Trabajos/Conceptuales/                             | Teórico          |
-| Presentaciones                        | ISW_4K2_2025_U<Nro_U>_<N_Pres>.pdf                     | ISW_4K2_2025_Grupo_2/Unidades/Unidad_<Nro_U>/Presentaciones/            | Cátedra          |
-| Estructura_ReglasNombrado             | ISW_4K2_2025_Estructura_ReglasNombrado.pdf             | ISW_4K2_2025_Grupo_2/                                                   | Archivo          |
+| Bibliografía /                        | <Nombre_Bibliografía>.pdf                              | ISW_4K2_2025_Grupo_2/Bibliografía/<Tema_Bibliografía>/                  | Cátedra          |         |
+| Guías                                 | <Nombre_Guia>.pdf                                      | ISW_4K2_2025_Grupo_2/Guías/                                | Cátedra          |
+| Lineamientos de Cátedra               | <Nombre_Lineamiento>.[pdf/xlsx]                        | ISW_4K2_2025_Grupo_2/Lineamientos_de_Cátedra/              | Cátedra          |
+| Templates                             | <Nombre_Template>.[doc/xlsx]                           | ISW_4K2_2025_Grupo_2/Templates                             | Cátedra          |
+| Trabajos / Prácticos                  | TP_<Numero_TP>.pdf                                     | ISW_4K2_2025_Grupo_2/Trabajos/Prácticos/                            | Práctico         |
+| Trabajos / Conceptuales               | TC_<Numero_TC>.pdf                                     | ISW_4K2_2025_Grupo_2/Trabajos/Conceptuales/                         | Teórico          |
+| Presentacion                          | <Nombre_Presentacion>.pdf                              | ISW_4K2_2025_Grupo_2/Unidades/<Numero_Unidad>/Presentaciones/       | Cátedra          |
+| Apuntes	                              | <Numero_Apunte>.doc	                                | ISW_4K2_2025_Grupo_2/Unidades/<Numero_Unidad>/Apuntes/	            | Teórico |
+| Estructura de Reglas de Nombrado      | Estructura_RN.pdf                                      | ISW_4K2_2025_Grupo_2/              
+                                      | Archivo          |
+
+
 
 
 ## Glosario
 
-| **Sigla**         | **Significado**                           |
-|-------------------|-------------------------------------------|
-| Bib               | Bibliografía                              |
-| GdT               | Guías de Trabajo                          |
-| ISW               | Ingeniería y calidad de software          |
-| LdC               | Lineamientos de cátedra                   |
-| LyK               | Lean Kanban                               |
-| N_Bib             | Nombre de la bibliografía                 |
-| N_Guia            | Nombre de la guía de trabajo              |
-| N_Lineamiento     | Nombre del lineamiento                    |
-| N_Pres            | Nombre de la presentación                 |
-| N_Template        | Nombre del template                       |
-| Nro_tc            | Número del trabajo conceptual             |
-| Nro_tp            | Número del trabajo práctico               |
-| Nro_U             | Número de unidad                          |
-| PA                | Pensamiento Ágil                          |
-| TC                | Trabajo conceptual                        |
-| Temp              | Templates                                 |
-| TP                | Trabajo práctico                          |
-| TS                | Testing de software                       |
+| **Sigla**             | **Significado**                           |
+|-----------------------|-------------------------------------------|
+| ISW                   | Ingeniería y calidad de software          |
+| TP                    | Trabajo practico                          |
+| TC                    | Trabajo conceptuales                      |
+| N°                    | Numero                                    |
+| SCM                   | Software Configuration Management         |	 
+| URL                   | Uniform Resource Locator                  |
+| RN	                   | Reglas de nombrado                        |       
+| <Nombre_Bibliografía> | Nombre de la bibliografía                 |
+| <Tema_Bibliografía>   | Tema de la bibliografía correspondiente   |
+| <Nombre_Guia>	    | Nombre de la guía                         | 
+| <Nombre_Lineamiento>  | Nombre del lineamiento de cátedra         |
+| <Nombre_Template>	    | Nombre del template                       |
+| <Numero_TP>	         | Numero del trabajo practico               |
+| <Numero_TC>	         | Numero del trabajo conceptual             |
+| <Nombre_Presentacion> | Nombre de la presentación                 |
+| <Numero_Unidad>	    | Numero de la unidad                       |
+| <Numero_Apunte>	    | Numero del apunte                         |
+
 
 
 ## Marcado de Línea Base
-El momento para marcar una nueva línea base será el día posterior a la fecha de los parciales, siendo las fechas de marcado para el repositorio las siguientes:
+El criterio para marcar una nueva línea base será el día posterior a cada parcial, ya que estos hitos permiten evaluar el grado de avance y estabilidad alcanzado en el desarrollo de la materia. De esta forma, cada línea base funciona como un punto de referencia estable sobre el cual gestionar y controlar cambios futuros, siendo las fechas de marcado para el repositorio las siguientes:
 * Línea base inicial: 02/09/2025
 * Nueva línea base: 28/09/2025
 * Nueva línea base: 09/11/2025
