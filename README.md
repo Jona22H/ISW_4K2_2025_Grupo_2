@@ -70,15 +70,14 @@ Archivo pdf que contiene la estructura del repositorio, las reglas de nombrado y
 | **Nombre**                            | **Regla de Nombrado**                                  | **Ubicación Física**                                                    | **Tipo de ítem** |
 |---------------------------------------|--------------------------------------------------------|-------------------------------------------------------------------------|------------------|
 | Bibliografía /                        | <Nombre_Bibliografía>.pdf                              | ISW_4K2_2025_Grupo_2/Bibliografía/<Tema_Bibliografía>/                  | Cátedra          |         |
-| Guías                                 | <Nombre_Guia>.pdf                                      | ISW_4K2_2025_Grupo_2/Guías/                                | Cátedra          |
-| Lineamientos de Cátedra               | <Nombre_Lineamiento>.[pdf/xlsx]                        | ISW_4K2_2025_Grupo_2/Lineamientos_de_Cátedra/              | Cátedra          |
-| Templates                             | <Nombre_Template>.[doc/xlsx]                           | ISW_4K2_2025_Grupo_2/Templates                             | Cátedra          |
+| Guías                                 | <Nombre_Guia>.pdf                                      | ISW_4K2_2025_Grupo_2/Guías/                                         | Cátedra          |
+| Lineamientos de Cátedra               | <Nombre_Lineamiento>.[pdf/xlsx]                        | ISW_4K2_2025_Grupo_2/Lineamientos_de_Cátedra/                       | Cátedra          |
+| Templates                             | <Nombre_Template>.[doc/xlsx]                           | ISW_4K2_2025_Grupo_2/Templates                                      | Cátedra          |
 | Trabajos / Prácticos                  | TP_<Numero_TP>.pdf                                     | ISW_4K2_2025_Grupo_2/Trabajos/Prácticos/                            | Práctico         |
 | Trabajos / Conceptuales               | TC_<Numero_TC>.pdf                                     | ISW_4K2_2025_Grupo_2/Trabajos/Conceptuales/                         | Teórico          |
 | Presentacion                          | <Nombre_Presentacion>.pdf                              | ISW_4K2_2025_Grupo_2/Unidades/<Numero_Unidad>/Presentaciones/       | Cátedra          |
 | Apuntes	                              | <Numero_Apunte>.doc	                                | ISW_4K2_2025_Grupo_2/Unidades/<Numero_Unidad>/Apuntes/	            | Teórico |
-| Estructura de Reglas de Nombrado      | Estructura_RN.pdf                                      | ISW_4K2_2025_Grupo_2/              
-                                      | Archivo          |
+| Estructura de Reglas de Nombrado      | Estructura_RN.pdf                                      | ISW_4K2_2025_Grupo_2/                                               | Archivo          |
 
 
 
