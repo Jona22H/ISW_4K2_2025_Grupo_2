@@ -37,8 +37,6 @@ def test_inscripcion_exitosa():
     assert resultado["actividad"] == "Tirolesa", "No se inscribió correctamente"
     assert actividades["Tirolesa"]["cupo"] == 4, "No se redujo el cupo correctamente"
 
-    print("✅ La inscripción se realizó correctamente.")
-
 # SEGUNDA PRUEBA: Inscribirse a una actividad que no tiene cupo para el horario seleccionado (falla)
 
 def test_inscripcion_falla_sin_cupos():
@@ -70,7 +68,6 @@ def test_inscripcion_falla_sin_cupos():
 
     # --- RESULTADOS ---
     assert "No hay cupos disponibles" in str(error.value), "El mensaje de error no es correcto"
-    print("✅ La prueba falló correctamente cuando no había cupos disponibles.")
 
 # TERCER PRUEBA: Inscribirse a una actividad sin ingresar talle de vestimenta porque la actividad no lo requiere (pasa)
 
@@ -103,7 +100,6 @@ def test_inscripcion_exitosa_sin_talle():
     # --- RESULTADOS ---
     assert resultado["actividad"] == "Safari", "No se inscribió correctamente"
     assert actividades["Safari"]["cupo"] == 2, "No se redujo el cupo correctamente"
-    print("✅ La inscripción se realizó correctamente sin requerir talle.")
 
 # CUARTA PRUEBA: Inscribirse a una actividad seleccionando un horario en el cual el parque está cerrado o la actividad no está disponible (falla)
 
@@ -137,7 +133,6 @@ def test_inscripcion_falla_horario_cerrado():
 
     # --- RESULTADOS ---
     assert "Horario no disponible" in str(error.value), "El mensaje de error no es correcto"
-    print("✅ La prueba falló correctamente porque el horario seleccionado no estaba disponible.")
 
 # QUINTA PRUEBA: Inscribirse a una actividad sin aceptar los términos y condiciones de la actividad (falla)
 
@@ -171,7 +166,6 @@ def test_inscripcion_falla_sin_aceptar_terminos():
 
     # --- RESULTADOS ---
     assert "Debe aceptar los términos y condiciones" in str(error.value), "El mensaje de error no es correcto"
-    print("✅ La prueba falló correctamente cuando no se aceptaron los términos y condiciones.")
 
 # SEXTA PRUEBA: No se ingresa el talle cuando la actividad lo requiere (falla)
 
@@ -204,4 +198,3 @@ def test_inscripcion_falla_sin_talle_requerido():
 
     # --- RESULTADOS ---
     assert "Debe ingresar el talle de vestimenta requerido por la actividad" in str(error.value), "El mensaje de error no es correcto"
-    print("✅ La prueba falló correctamente porque no se ingresó el talle requerido.")
