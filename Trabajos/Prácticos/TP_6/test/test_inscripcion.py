@@ -3,9 +3,9 @@
 from app.inscripcion import inscribirse_a_actividad
 import pytest
 
-# PRIMER PRUEBA: inscribirse a una actividad del listado que poseen cupos disponibles, seleccionando un horario, 
+# PRIMER PRUEBA: Inscribirse a una actividad del listado que poseen cupos disponibles, seleccionando un horario, 
 # ingresando los datos del visitante (nombre, DNI, edad, talla de la vestimenta si la actividad lo requiere) y aceptando 
-# los términos y condiciones 
+# los términos y condiciones (pasa)
 
 def test_inscripcion_exitosa():
     # --- PRECONDICIONES ---
@@ -39,39 +39,7 @@ def test_inscripcion_exitosa():
 
     print("✅ La inscripción se realizó correctamente.")
 
-# SEGUNDA PRUEBA: Actividad sin cupo para el horario seleccionado
-
-def test_inscripcion_exitosa():
-    # --- PRECONDICIONES ---
-    actividades = {
-        "Tirolesa": {"cupo": 5,
-                     "requiere_talle": True,
-                     "horarios_disponibles": ["10:00", "14:00"]}
-    }
-
-    visitante = {
-        "nombre": "Ana",
-        "dni": "12345678",
-        "edad": 30,
-        "talle": "M"
-    }
-
-    horario_seleccionado = "10:00"
-
-    # --- PASOS DEL CASO DE PRUEBA ---
-    resultado = inscribirse_a_actividad(
-        actividades=actividades,
-        nombre_actividad="Tirolesa",
-        visitante=visitante,
-        terminos_aceptados=True,
-        horario=horario_seleccionado
-    )
-
-    # --- RESULTADOS ---
-    assert resultado["actividad"] == "Tirolesa", "No se inscribió correctamente"
-    assert actividades["Tirolesa"]["cupo"] == 4, "No se redujo el cupo correctamente"
-    print("✅ La inscripción se realizó correctamente.")
-
+# SEGUNDA PRUEBA: Inscribirse a una actividad que no tiene cupo para el horario seleccionado (falla)
 
 def test_inscripcion_falla_sin_cupos():
     # --- PRECONDICIONES ---
@@ -104,7 +72,7 @@ def test_inscripcion_falla_sin_cupos():
     assert "No hay cupos disponibles" in str(error.value), "El mensaje de error no es correcto"
     print("✅ La prueba falló correctamente cuando no había cupos disponibles.")
 
-# TERCER PRUEBA: No se ingresa el talle cuando la actividad no lo requiere
+# TERCER PRUEBA: Inscribirse a una actividad sin ingresar talle de vestimenta porque la actividad no lo requiere (pasa)
 
 def test_inscripcion_exitosa_sin_talle():
     # --- PRECONDICIONES ---
@@ -137,7 +105,7 @@ def test_inscripcion_exitosa_sin_talle():
     assert actividades["Safari"]["cupo"] == 2, "No se redujo el cupo correctamente"
     print("✅ La inscripción se realizó correctamente sin requerir talle.")
 
-# CUARTA PRUEBA: Inscribirse a una actividad seleccionando un horario en el cual el parque está cerrado o la actividad no está disponible
+# CUARTA PRUEBA: Inscribirse a una actividad seleccionando un horario en el cual el parque está cerrado o la actividad no está disponible (falla)
 
 def test_inscripcion_falla_horario_cerrado():
     # --- PRECONDICIONES ---
@@ -171,7 +139,7 @@ def test_inscripcion_falla_horario_cerrado():
     assert "Horario no disponible" in str(error.value), "El mensaje de error no es correcto"
     print("✅ La prueba falló correctamente porque el horario seleccionado no estaba disponible.")
 
-# QUINTA PRUEBA: No se aceptan terminos y condiciones
+# QUINTA PRUEBA: Inscribirse a una actividad sin aceptar los términos y condiciones de la actividad (falla)
 
 def test_inscripcion_falla_sin_aceptar_terminos():
     # --- PRECONDICIONES ---
