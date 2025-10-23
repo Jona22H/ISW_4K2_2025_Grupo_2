@@ -2,16 +2,20 @@
 
 # Se usa el framework pytest para la ejecucion de las pruebas automatizadas.
 # Las mismas se ejecutan dentro de un entorno virtual (virtualenv), con el fin de mantener aisladas las dependencias necesarias para el desarrollo
+# El frontend se realiza con la libreria streamlit que permite una interfaz simple a fines de mostrar la funcionalidad solicitada
 
 # ¿Como CREAR el entorno virtual?
-#   pip install virtualenv
-#   pip install pytest
-#   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass  
 #   python -m venv .venv
+#   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass 
 
 # ¿Como activo el entorno virtual?
-#   .venv\Scripts\activate en Powershell
-#   source .venv\Scripts\activate en gitbash
+#   .venv/Scripts/activate en Powershell
+#   source .venv/Scripts/activate en gitbash
 
 # ¿Como ejecuto las pruebas? 
-#   pytest -v
+#   pip install -r "requirements.txt"
+#   --user si los permisos no dejan
+#   pytest -v nombredelarchivoconlostests.py
+
+# ¿Como levanto el front?
+#   streamlit run main.py
