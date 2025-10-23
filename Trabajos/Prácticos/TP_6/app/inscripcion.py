@@ -1,5 +1,5 @@
 # app/inscripcion.py
-from app import db
+from app import DB as db
 
 def inscribirse_a_actividad(actividades, nombre_actividad, visitante, terminos_aceptados, horario, cantidad):
     """
