@@ -1,21 +1,50 @@
-# Los tests que corresponden a la user story "inscribirme a actividad" quedan almacenados todos dentro del mismo file "test_inscripcion.py" , porque los mismos pertenecen a una unica User Story.
+# TP_6 - Sistema de Inscripción a Actividades
 
-# Se usa el framework pytest para la ejecucion de las pruebas automatizadas.
-# Las mismas se ejecutan dentro de un entorno virtual (virtualenv), con el fin de mantener aisladas las dependencias necesarias para el desarrollo
-# El frontend se realiza con la libreria streamlit que permite una interfaz simple a fines de mostrar la funcionalidad solicitada
 
-# ¿Como CREAR el entorno virtual?
-#   python -m venv .venv
-#   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass 
+Los tests correspondientes a la user story "inscribirme a actividad" están almacenados en el archivo `Test_Inscripcion.py`, ya que pertenecen a una única User Story.
 
-# ¿Como activo el entorno virtual?
-#   .venv/Scripts/activate en Powershell
-#   source .venv/Scripts/activate en gitbash
+## Tecnologías Utilizadas
 
-# ¿Como ejecuto las pruebas? 
-#   pip install -r "requirements.txt"
-#   --user si los permisos no dejan
-#   pytest -v nombredelarchivoconlostests.py
+- **Framework de Testing**: `pytest` para la ejecución de pruebas automatizadas
+- **Entorno Virtual**: `virtualenv` para mantener aisladas las dependencias
+- **Frontend**: `streamlit` para una interfaz simple y funcional
 
-# ¿Como levanto el front?
-#   streamlit run main.py
+## Configuración del Entorno
+
+### 1. Crear el entorno virtual
+
+```bash
+python -m venv .venv
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+### 2. Activar el entorno virtual
+
+**En PowerShell:**
+```powershell
+.venv/Scripts/activate
+```
+
+**En Git Bash:**
+```bash
+source .venv/Scripts/activate
+```
+
+### 3. Instalar las dependencias
+
+```bash
+pip install -r requirements.txt
+```
+> Agregar la flag `--user` si no deja por permisos
+
+## Ejecutar las Pruebas
+
+```bash
+pytest -v nombredelarchivoconlostests.py
+```
+
+## Levantar la Aplicación
+
+```bash
+streamlit run main.py
+```
