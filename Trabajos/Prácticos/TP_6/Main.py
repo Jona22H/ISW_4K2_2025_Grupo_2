@@ -112,7 +112,7 @@ if st.button("✅ Inscribirse", type="primary", use_container_width=True, key="b
                     visitante=participante,
                     terminos_aceptados=terminos_aceptados,
                     horario=horario,
-                    cantidad=cantidad,
+                    cantidad=1,
                 )
             
             st.session_state.inscripcion_exitosa = True
