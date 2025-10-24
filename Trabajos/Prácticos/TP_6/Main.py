@@ -34,7 +34,6 @@ def init_db():
 
 # Inicializar la base
 init_db()
-start_transaction()
 
 # Obtener actividades del back (base de datos)
 actividades = obtener_actividades()
@@ -115,9 +114,7 @@ if st.button("✅ Inscribirse", type="primary", use_container_width=True, key="b
                     horario=horario,
                     cantidad=cantidad,
                 )
-
-            #commit
-            commit()
+            
             st.session_state.inscripcion_exitosa = True
             st.success("🎉 ¡Inscripción exitosa!")
             st.balloons()
