@@ -7,7 +7,6 @@ def inscribirse_a_actividad(actividades, nombre_actividad, visitante, terminos_a
     Permite a un visitante inscribirse en una actividad si hay cupos y acepta los términos.
     Valida talle si la actividad lo requiere, verifica campos obligatorios y el horario seleccionado.
     """
-    db.start_transaction()
 
     # --- Validaciones iniciales ---
 
@@ -44,9 +43,6 @@ def inscribirse_a_actividad(actividades, nombre_actividad, visitante, terminos_a
     # --- Actualizar cupo del horario ---
     horario_encontrado["cupo"] -= cantidad
     db.actualizar_cupo_por_horario(nombre_actividad, horario, horario_encontrado["cupo"])
-
-    # --- Confirmar transacción ---
-    db.commit()
 
     # --- Retornar resultado ---
     return {

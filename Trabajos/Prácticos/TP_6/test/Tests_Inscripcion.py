@@ -2,6 +2,13 @@
 
 from app.Inscripcion import inscribirse_a_actividad
 import pytest
+from app.DB import start_transaction, commit
+
+@pytest.fixture(autouse=True)
+def setup_db():
+    start_transaction()
+    yield
+    commit()
 
 # PRIMER PRUEBA: Inscribirse a una actividad del listado que poseen cupos disponibles, seleccionando un horario, 
 # ingresando los datos del visitante (nombre, DNI, edad, talla de la vestimenta si la actividad lo requiere) y aceptando 
