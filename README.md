@@ -107,7 +107,8 @@ Archivo pdf que contiene la estructura del repositorio, las reglas de nombrado y
 
 
 ## Marcado de Línea Base
-El criterio para marcar una nueva línea base será el día posterior a cada parcial, ya que estos hitos permiten evaluar el grado de avance y estabilidad alcanzado en el desarrollo de la materia. De esta forma, cada línea base funciona como un punto de referencia estable sobre el cual gestionar y controlar cambios futuros, siendo las fechas de marcado para el repositorio las siguientes:
-* Línea base inicial: 02/09/2025
-* Nueva línea base: 28/09/2025
-* Nueva línea base: 09/11/2025
+El criterio para marcar una nueva línea base será el día posterior a cada parcial (consideramos también el recuperatorio para incluir los trabajos prácticos y teóricos que sean posteriores al segundo parcial), ya que estos hitos permiten evaluar el grado de avance y estabilidad alcanzado en el desarrollo de la materia. De esta forma, cada línea base funciona como un punto de referencia estable sobre el cual gestionar y controlar cambios futuros, siendo las fechas de marcado para el repositorio las siguientes:
+* Primera línea base (inicial): 02/09/2025
+* Segunda línea base: 28/09/2025
+* Tercera línea base: 09/11/2025
+* Cuarta línea base: 30/11/2025
